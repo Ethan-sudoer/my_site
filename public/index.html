@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.125.6">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+    
+      <link href="/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+      <link href="/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" />
+      
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="My New Hugo Site">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="My New Hugo Site">
+  <meta itemprop="dateModified" content="2024-05-08T19:45:24+08:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="My New Hugo Site">
+<meta name="twitter:description" content="">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+
+  <header>
+    <div class="pb3-m pb6-l bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          My New Hugo Site
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+      
+    </article>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      <div class="pa3 pa4-ns w-100 w-70-ns center">
+        
+        
+            <h1 class="flex-none">
+              Recent Posts
+            </h1>
+          
+
+        
+
+        <section class="w-100 mw8">
+          
+          
+            <div class="relative w-100 mb4">
+              
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/my-second-post/" class="color-inherit dim link">
+            My Second Post
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          2018 年，一个更加稳定的离线策略算法 Soft Actor-Critic（SAC）被提出。其前身是 Soft Q-learning，它们都属于最大熵强化学习的范畴。 Soft Q-learning 不存在一个显式的策略函数，而是使用一个函数的波尔兹曼分布，在连续空间下求解非常麻烦。于是 SAC 提出使用一个 Actor 表示策略函数，从而解决这个问题。 目前，在无模型的强化学习算法中，SAC 是一个非常高效的算法，它学习一个随机性策略，在不少标准环境中取得了领先的成绩。
+熵 Entropy 熵（entropy）表示对一个随机变量的随机程度的度量。具体而言，如果$X$ 是一个随机变量，且它的概率密度函数为$p$，那么它的熵就被定义为$$H(X)=E_{x\sim p}[-\log p(x)]$$
+强化学习中可以类似定义一个策略的在某个状态下的随机程度（在一个状态下策略有多种可能的动作选择，他们构成了一个分布）$$H(\pi(\cdot | s_t))$$
+最大熵强化学习 #正则化 最大熵强化学习（maximum entropy RL）的思想就是除了要最大化累积奖励，还要使得策略更加随机。如此，强化学习的目标中就加入了一项熵的正则项，定义为$$\pi*=arg\max_{\pi}E_{\pi}[\sum_t r(s_t,a_t)+\alpha H(\pi(\cdot | s_t))]$$ 其中，$\alpha$是一个正则化的系数，用来控制熵的重要程度。 熵正则化增加了强化学习算法的探索程度，$\alpha$越大，探索性就越强，有助于加速后续的策略学习，并减少策略陷入较差的局部最优的可能性。
+        </div>
+          <a href="/posts/my-second-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+            </div>
+          
+            <div class="relative w-100 mb4">
+              
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="/posts/my-first-post/" class="color-inherit dim link">
+            My First Post
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          #policy-based
+Q-learning、DQN 及 DQN 改进算法都是基于价值（value-based）的方法，其中 Q-learning 是处理有限状态的算法，而 DQN 可以用来解决连续状态的问题。在强化学习中，除了基于值函数的方法，还有一支非常经典的方法，那就是基于策略（policy-based）的方法。对比两者，基于值函数的方法主要是学习值函数，然后根据值函数导出一个策略，学习过程中并不存在一个显式的策略；而基于策略的方法则是直接显式地学习一个目标策略。
+参数化建模策略 假设目标策略 $\pi_\theta$是一个随机性策略，并且处处可微，$\theta$ 是对应的参数。我们可以用一个线性模型或者神经网络模型来为这样一个策略函数建模，输入某个状态，然后输出一个动作的概率分布。
+目标是要寻找一个最优策略并最大化这个策略在环境中的期望回报。我们将策略学习的目标函数定义为:$$J(\theta)=\mathbb{E}{s_0}[V^{\pi\theta}(s_0)]$$ 其中，$s_0$表示初始状态。现在有了目标函数，我们将目标函数对策略求导，得到导数后，就可以用梯度上升方法来最大化这个目标函数，从而得到最优策略。
+策略梯度 ![[Pasted image 20230811153231.png]]
+REINFORCE算法流程 初始化策略参数 $\theta$ 对于每一轮训练： 采样当前基于当前策略的轨迹（尽可能达到目标长度）——采用 蒙特卡洛方法 计算回报 更新参数 总结 可以看到，随着收集到的轨迹越来越多，REINFORCE 算法有效地学习到了最优策略。不过，相比于前面的 DQN 算法，REINFORCE 算法使用了更多的序列，这是因为 REINFORCE 算法是一个在线策略算法，之前收集到的轨迹数据不会被再次利用。此外，REINFORCE 算法的性能也有一定程度的波动，这主要是因为每条采样轨迹的回报值波动比较大，这也是 REINFORCE 算法主要的不足。
+评价REINFORCE REINFORCE 通过蒙特卡洛采样的方法对策略梯度的估计是无偏的，但是方差非常大。
+        </div>
+          <a href="/posts/my-first-post/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+            </div>
+          
+        </section>
+
+        
+
+        </div>
+    
+  
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
+    &copy;  My New Hugo Site 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
